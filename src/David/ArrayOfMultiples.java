@@ -12,7 +12,6 @@ public class ArrayOfMultiples {
     public static int[] arrayOfMultiples(int num, int length) {
         int sum = 0;
         int [] arr = new int[length];
-        gi
         for(int i = 0; i < length; i++){
             sum += num;
             arr[i] = sum;
